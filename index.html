@@ -16,26 +16,101 @@
         </div>
     </main>
     <script type="pseudo" id="user-code">
-        config fps 1            // set the framerate
+        config fps 5           // set the framerate
 
         clear all               // clear entire canvas
         set x 0                 // set the x variable to 0
         set y 0
-        set width 50%           // set the width variable to 100% of canvas width
-        set height 50%
-        paint selection red     // paint the selected area red
+        set width 100%           // set the width variable to 100% of canvas width
+        set height 100%
+          // paint the selected area red
+
+        new frame 1 
+        clear all             // create a new frame
+        set x 25%                 
+        set y 0
+        set width 25%           
+        set height 25%
+        paint selection red    
+
+        set x 50%
+        set y 25%
+        set width 25%
+        set height 25%
+        paint selection orange
+
+        set x 75%
+        set y 50%
+        set width 25%
+        set height 25%
+        paint selection green
+
+        set x 75%
+        set y 0
+        set width 25%
+        set height 25%
+        paint selection purple
+
+        new frame 2
+        set x 0                 
+        set y 25%
+        set width 25%           
+        set height 25%
+        paint selection red    
+
+        set x 25%
+        set y 50%
+        set width 25%
+        set height 25%
+        paint selection orange
+
+        set x 50%
+        set y 75%
+        set width 25%
+        set height 25%
+        paint selection green
+
+        set x 0
+        set y 75%
+        set width 25%
+        set height 25%
+        paint selection purple
+
+        new frame 3
+
+        set x 0
+        set y 0
+        set width 25%
+        set height 25%
+        paint selection blue
+
+        set x 25%
+        set y 25%
+        set width 25%
+        set height 25%
+        paint selection blue
 
         set x 50%
         set y 50%
-        set width 50%
-        set height 50%
-        paint selection orange
+        set width 25%
+        set height 25%
+        paint selection blue
 
-        new frame               // create a new frame
+        set x 75%
+        set y 75%
+        set width 25%
+        set height 25%
+        paint selection blue
+
+        new frame 4
         clear all
-        set size 50%, 50%       // set width to 50% and height to 50%
-        set position 25%, 25%   // set x to 25% and y to 25%
-        clear selection         // clear the selected area
+        paint all white       // paint entire canvas white
+
+        set x 37.5%
+        set y 37.5%
+        set width 25%
+        set height 25%
+        outline selection red   // outline selected area in red
 
         set x 25%
         set y 25%
@@ -43,10 +118,53 @@
         set height 50%
         outline selection red   // outline selected area in red
 
-        new frame x
+        new frame 5
         clear all
-        paint all white         // paint entire canvas white
-        paint selection black   // paint selected area black
+        paint all pink
+        paint selection red
+
+        set x 37.5%
+        set y 37.5%
+        set width 25%
+        set height 25%
+        paint selection pink  
+
+        new frame 6              // create a new frame
+        clear all
+        set size 50%, 50%       // set width to 50% and height to 50%
+        set position 25%, 25%   // set x to 25% and y to 25%
+        clear selection         // clear the selected area
+
+        set x 25%
+        set y 24%
+        set width 50%
+        set height 25%
+        outline selection yellow   // outline selected area in red
+
+        set x 25%
+        set y 51%
+        set width 50%
+        set height 25%
+        outline selection yellow   // outline selected area in red
+
+        new frame  7
+        clear all
+        paint all yellow 
+        clear selection 
+
+        set x 25%
+        set y 24%
+        set width 50%
+        set height 25%
+        clear selection
+         
+
+ 
+
+
+
+
+
     </script>
 </body>
 </html>
